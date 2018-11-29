@@ -1,0 +1,12 @@
+修改jdbc.properties里面的数据库
+使用方法，修改MapperXML.ftl里的commondto路径
+修改conf.properties生成包路径base_package=com.loong.shopp.app
+去掉这个为空eneity_suffix=
+修改entity_package=model实体类名字
+####生成可用xml，将xml复制到我们逆向工程生成的xml里面
+然后复制controller，service,serviceimpl
+完成咯，在来波dto
+修改
+eneity_suffix=dto
+entity_package=dto
+然后复制所有dto到项目里即可
